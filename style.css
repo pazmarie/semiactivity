@@ -1,0 +1,180 @@
+body {
+    background-attachment: fixed;
+    background-color: greenyellow;
+    color: black;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    text-align: left;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: -2px;
+    width: 100%;
+}
+
+.punchline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#C69C6D;
+    padding-left: 20px;
+    padding-top: -5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:link, a:visited{
+		color: #ff8c00;
+}
+
+a:hover, a:active{
+	background-color: #ff800;
+	color: #fff;
+}
+
+
+.body {
+    
+   margin: 0 auto;
+   width: 70%;
+   clear: both;
+}
+
+.mainHeader img {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.mainHeader nav {
+	background-color:#333333;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+	margin-left: 130px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a: active,
+.mainHeader nav .active a:link, .mainHeader nav .active a.visited{
+    background-color: #FF8C00;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainContent{
+	width: 945px;
+	height: 490px;
+	background-color:#333333;
+
+	}
+.leftContent{
+	width: 590px;
+	height: 500px;
+	float: left;
+	box-shadow: 0px 10px 30px 0px #000000;
+	}
+.l1{
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #0bf1f9;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 12.5px;
+	font-family: Century Schoolbook;
+	float: left;
+}	
+.rightContent{
+	width: 195px;
+	height: 350px;
+	margin-left: 0px;
+	float: left;
+	}
+.mainfooter {
+	width: 100%;
+	height: 50%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#333333;
+	margin-top: 5px;
+	margin-bottom: 2%;
+}
+
+/*CSS FOR THE ABOUT PAGE*/
+
+.aboutcontent {
+    width: 96%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.galleryContent {	
+	width:100%;
+	height:600px;
+	border-radius: 5px;
+	border:0px;
+	margin-left: 0px;
+	background-color:#333333;
+}
+
+.organicContent {
+    width:100%;
+	height:600px;
+	border-radius: 5px;
+	border:0px;
+	margin-left: 0px;
+	background-color:#333333;
+}
+
+.serviceContent {
+    width:100%;
+	height:600px;
+	border-radius: 5px;
+	border:0px;
+	margin-left: 0px;
+	background-color:#333333;
+}
